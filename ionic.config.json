@@ -1,0 +1,7 @@
+{
+  "name": "ebook-filereader",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-img
+    src="data:image/png;base64, {{photo}}"
+  ></ion-img>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="back()">Back</ion-button>
+        <ion-button (click)="next()">Next</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="poolBack()">Pool Back</ion-button>
+        <ion-button (click)="poolNext()">Pool Next</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
